@@ -33,3 +33,25 @@ console.log(typeof(bigNumber))
 console.log(typeof(anotherId))
 console.log(typeof(outsideTemp))
 console.log(typeof(heros))
+
+
+// ***************************************************
+
+// stack (primitive) => whenever stack memory is used, primitive data type will appear
+// heap (non-primitive) => whenever heap memory is used, non-primitive data type will appear
+
+let myWebsite = "adithyagattadidotcom"
+let anotherChannel = myWebsite
+anotherChannel = "code code"
+console.log(myWebsite)
+console.log(anotherChannel)
+
+let userOne = {
+    email:"adi@mail.com",
+    upi:"adi@upi"
+}
+let userTwo = userOne
+userTwo.email = "ok@google.com"
+userTwo.upi = 838649
+console.log(userOne)
+console.log(userTwo)
