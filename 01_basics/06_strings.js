@@ -33,4 +33,4 @@ console.log(url.replace('@', '-'));
 console.log(url.includes('adithya'))
 console.log(url.includes('john'))
 
-console.log(gamePlay.split('-'))             // converts strings to array 
+console.log(gamePlay.split('-'))             // converts strings to array  
